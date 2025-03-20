@@ -1,0 +1,11 @@
+Sur les ordinateurs de l'école, sous Linux, les instructions pip ne fonctionnent pas car python-venv n'est pas installé et a besoin de sudo. Il faut donc passer par conda. Voici les étapes:
+	conda create --name tpia python=3.8 #donner une version de python est crucial ici.
+	conda init bash
+	conda activate tpia
+	conda install pytorch
+	(  conda install nb_conda  ) => peut-être pas nécessaire?
+	conda install ipykernel
+	python -m ipykernel install --user --name tpia --display-name "Python (tpia)"
+	jupyter-lab &
+		
+=> puis en haut à droite dans jupyter lab, changer le kernel vers "Python (tpia)" (c'est ce que permettent de faire les 2 lignes avec ipykernel).

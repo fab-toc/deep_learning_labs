@@ -1,0 +1,6 @@
+- Installer l'extension jupyter lab
+- quand on est sur un fichier .ipynb:
+	- cliquer en haut à droite sur le noyau python
+	- créer un environnement
+	- donner le path vers venv/mon_env/python3.x
+- l'environnement finit par apparaître dans la liste des kernels: le sélectionner.
