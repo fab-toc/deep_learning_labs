@@ -2,13 +2,13 @@
 
 ## LAB 2
 
-### Q1
+### Q1: Put the values of these gradients in your report.
 
-Values of gradient:
+Gradients of loss: $\nabla_{w} loss = -20$ & $\nabla_{b} loss = -10$
 
-### Q2
+### Q2: What are the final values (i.e., after training) of the weight $w$ and bias $b$?
 
-Final values after training:
+Final values after training: $w$ = 0.24 & $b$ = 0.8871
 
 ### Q3 & Q4
 
