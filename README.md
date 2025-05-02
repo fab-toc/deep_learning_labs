@@ -4,7 +4,9 @@
 
 ### Q1: Put the values of these gradients in your report.
 
-Gradients of loss: $\nabla_{w} loss = -20$ & $\nabla_{b} loss = -10$
+Gradients of loss:
+$$\nabla_{w} loss = -20$$
+$$\nabla_{b} loss = -10$$
 
 ### Q2: What are the final values (i.e., after training) of the weight $w$ and bias $b$?
 
