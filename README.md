@@ -16,9 +16,9 @@ _Plots of loss over epochs & original/predicted data_
 
 ## LAB 3
 
-### Q1
+### Q1: How many parameters are in the network?
 
-Number of parameters of the network: 8060
+As we have 3 linear layers (weight + biases) with: `input_size = 784, hidden_size = 10 and output_size = 10`, the number of parameters of the network is 8070.
 
 ### Q2
 
